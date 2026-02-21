@@ -1,0 +1,35 @@
+# Packet captures
+*.pcap
+*.pcapng
+*.cap
+
+# Logs
+*.log
+
+# Wordlists
+wordlists/
+*.txt
+
+# Firmware dumps
+firmware/
+*.bin
+*.img
+
+# Environment files
+.env
+
+# Private keys (VERY IMPORTANT)
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Temporary files
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Tool output folders
+loot/
+reports/
